@@ -24,6 +24,7 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
+      "edgeToEdgeEnabled": true,
       "package": "com.zenitsu7.firstapp"
     },
     "web": {

@@ -77,7 +77,7 @@ router.post('/signup', async (req,res) => {
             service: 'Gmail',
             auth: {
                 user: process.env.EMAIL_ID,
-                pass: process.env.PASSWORD
+                pass: process.env.EMAIL_PASS
             }
         })
 

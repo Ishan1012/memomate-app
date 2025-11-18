@@ -58,14 +58,19 @@ const LoginScreen = ({ navigation }) => {
                 username: '',
                 password: ''
             });
-            Alert.alert('Login successful', 'now you can enter in the app');
+            Alert.alert('Login successful', 'now you can enter in the app', [
+                {
+                    text: 'OK', onPress: () => {
+                        navigation.goBack();
+                        navigation.navigate('DailyJournal');
+                    }
+                }
+            ]);
         } catch (error) {
             console.log(error);
             Alert.alert('Login failed', error?.response?.data?.message || 'An error occurred');
         } finally {
             setLoading(false);
-            navigation.goBack();
-            navigation.navigate('DailyJournal');
         }
     };
 
