@@ -30,7 +30,7 @@ Then came the technical challenges: building a minimalistic yet functional UI, c
 
 ## 🏗️ How I Built It
 
-Building WellNest was like conducting an orchestra; every piece needed to work in harmony:
+Building MemoMate was like conducting an orchestra; every piece needed to work in harmony:
 
 ### Phase 1: The Foundation
 I began to plan the user requirements. I tried to think about what operations a user can perform on my app and I mentioned them as functional depandencies. After that I worked on planning a layout of the mobile app. I tried to plan a system design and how to implement user authentication in this mobile app.
@@ -61,7 +61,7 @@ Each part of this project helped me understand more about building apps, managin
 
 ## 🔧 How It Could Be Improved
 
-WellNest is evolving, and there’s always room for growth:
+MemoMate is evolving, and there’s always room for growth:
 
 - **AI-Powered Sentiment Analysis**: Adding ai agents for better sentiment analysis.
 - **Google OAuth**: Implementing google authentication for faster signup and signin.
