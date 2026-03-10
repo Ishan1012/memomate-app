@@ -78,3 +78,7 @@ To run the project in your local environment, follow these steps:
 4. Open `Expo Go` mobile app and scan the `QR code` to view the app.
 
 ## 🎥 Video
+
+
+https://github.com/user-attachments/assets/d5f3066d-741d-48de-9593-daeb79b287e8
+
